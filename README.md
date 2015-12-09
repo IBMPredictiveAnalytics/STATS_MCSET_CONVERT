@@ -1,5 +1,5 @@
 # STATS_MCSET_CONVERT
- ##Convert a multiple category set to a multiple dichotomy set
+##Convert a multiple category set to a multiple dichotomy set
  
 ---
 Requirements
