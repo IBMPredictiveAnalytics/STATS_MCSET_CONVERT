@@ -1,0 +1,44 @@
+STATS MCSETS CONVERT Extension Command
+======================================
+
+
+Convert a multiple category set into a multiple dichotomy set.
+
+STATS MCSETS CONVERT  
+MCSET=*mcset*^&#42;  
+VARPREFIX=*string*^&#42;  
+SETNAME=*setname*^&#42;
+
+/HELP
+
+^&#42; Required  
+^&#42;&#42; Default
+
+/HELP displays this text and does nothing else.
+
+Example:
+```
+STATS MCSET CONVERT MCSET = $mcset1 VARPREFIX=set1 SETNAME=$fromset1.
+```
+
+This procedure converts a multiple category set into a multiple dichotomy set.
+It generates a dichotomous variable for each value found in the variables
+that define the MC set and assigns the value labels, if any, taken from the
+first variable in the set as the variable labels of the new variables.
+
+This may be useful in order to use the
+STATS CATEGORY ORDER extension command for working with CTABLES.
+
+Existing variables are overwritten, but if there is a type conflict,
+an error will be generated.
+
+**MCSET** is a multiple category set to convert to a multiple dichotomy set.
+
+**VARPREFIX** specifies text that will be prepended to the names of the generated
+names that form the output.  The generated names have the form
+`prefix_nn`
+where nn is a number. They may overwrite an existing variable.
+
+**SETNAME** is the name for the output multiple dichotomy set.
+
+(C) Copyright IBM Corp. 1989, 2014

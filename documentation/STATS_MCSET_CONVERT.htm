@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Convert a Multiple Category Set to a Multiple Dichotomy Set</title>
+<STYLE TYPE="text/css"> 
+<!-- 
+
+H1 {font-weight:bold; color:#006699; font-family:Verdana, Arial, sans-serif;font-size:125%; }
+H2 {font-weight:bold; color:#006699; font-family:Verdana, Arial, sans-serif;font-size:110%; }
+BODY {font-family:Verdana, Arial, sans-serif;font-size:80%; }
+TABLE {font-size:100%;font-family:Verdana, Arial, sans-serif;}
+
+/* paragraph tags */
+.step {text-indent: -1.3em; margin-left:1.3em; margin-top: 0px;}
+.step-glyph { font-family: Arial, Helvetica, sans-serif; }
+.menuselection {margin-left:10px}
+.bullet {list-style-type: disc;margin-top:12px; margin-left:36px; text-indent:-1em; }
+.codeblock {background-color: #ffffe6; display:block; margin-left:5px; padding:5px;font-family:"courier new",monospace; }
+
+/* inline tags */
+.code {font-family: Courier,fixed pitch;}                           /*** used to tag pieces of code (syntax, Python, R, HTML, etc.)   ***/
+.screen {font-weight:bold; color:#408080}                       /*** used refer to on-screen text ***/
+.name {font-style: italic}                                                       /*** used to tag names, such as variable names, file names, and so forth ***/
+.runinhead {font-weight: bold} 
+.superscript {vertical-align:super; font-size:80%}
+.subscript {vertical-align:sub; font-size:80%}
+.symbol {font-family: Symbol}
+
+--> 
+</STYLE>
+</head>
+<body>
+<h1>Convert a Multiple Category Set to a Multiple Dichotomy Set</h1>
+This procedure converts a multiple category set to a multiple dichotomy
+set representing the same information.  Variables in an MC set are all
+coded the same way but hold different values.
+
+<p>You might want to do this in order to use the STATS CATEGORY ORDER extension
+command to set a specific category order for use with CTABLES or in order
+to tabulate individual values</p>
+
+<p><span class="runinhead">Multiple Category Set</span> 
+Select a multiple category set for conversion.</p>
+<p class="bullet">• The source Variables control shows both
+multiple category and multiple dichotomy sets.</p>
+</p>
+<p><span class="runinhead">Prefix for Generated Variable Names</span> 
+Enter a prefix for the names of the dichotomous variables to be generated.  The
+names will have the form<br>
+prefix_nn<br>
+where nn is a number</p>
+<p class="bullet">• Existing variables may be overwritten.  If a string
+variable with one of these names exists, delete it before running this
+procedure.
+</p>
+<p><span class="runinhead">Name for New Set</span> Enter a name
+to be assigned to the new MD set.</p>
+
+<h2>Additional Features</h2>
+<p>
+This dialog generates syntax for the STATS MCSET CONVERT extension command. To display syntax help for this command,
+run the following syntax:
+</p>
+<p class="codeblock">STATS MCSET CONVERT /HELP.</p>
+
+<h2>Requirements</h2>
+This command requires the Python Essentials
+You can download these via the SPSS Community website at www.ibm.com/developerworks/spssdevcentral
+or from your installation materials.</p>
+
