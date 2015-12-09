@@ -1,0 +1,79 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: STATS_MCSET_CONVERT.py:81
+msgid "Only an MC set can be used with this procedure"
+msgstr ""
+"Bei dieser Prozedur kann nur ein Set von kategorialen Variablen verwendet werden"
+
+#: STATS_MCSET_CONVERT.py:90
+msgid "Convert MC Set"
+msgstr ""
+"Set von kategorialen Variablen umwandeln"
+
+#: STATS_MCSET_CONVERT.py:92
+msgid "Variables Generated for Set %s"
+msgstr ""
+"Variablen generiert für Set %s"
+
+#: STATS_MCSET_CONVERT.py:94
+msgid "Variable Name"
+msgstr ""
+"Variablenname"
+
+#: STATS_MCSET_CONVERT.py:96
+msgid "Label"
+msgstr ""
+"Beschriftung"
+
+#: STATS_MCSET_CONVERT.py:96
+msgid "Value Represented"
+msgstr ""
+"Dargestellter Wert"
+
+#: STATS_MCSET_CONVERT.py:111
+msgid "The specified set is not a multiple category set.  Only a set of that type can be used in this procedure: %s"
+msgstr ""
+"Das angegebene Set ist kein Set von kategorialen Variablen. Bei dieser Prozedur kann jedoch nur ein Set dieses Typs verwendet werden: %s"
+
+#: STATS_MCSET_CONVERT.py:265
+msgid "MR set not found: %s"
+msgstr ""
+"Mehrfachantwortset nicht gefunden: %s"
+
+#: STATS_MCSET_CONVERT.py:308
+msgid "---"
+msgstr ""
+"---"
+
+
+

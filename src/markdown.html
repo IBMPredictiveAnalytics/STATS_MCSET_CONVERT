@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS MCSETS CONVERT Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS MCSETS CONVERT Extension Command</h1>
+
+<p>Convert a multiple category set into a multiple dichotomy set.</p>
+<div class="syntax">
+<p>STATS MCSETS CONVERT<br/>
+MCSET=<em>mcset</em><sup>&#42;</sup><br/>
+VARPREFIX=<em>string</em><sup>&#42;</sup><br/>
+SETNAME=<em>setname</em><sup>&#42;</sup></p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>/HELP displays this text and does nothing else.</p>
+
+
+<pre class="example"><code>STATS MCSET CONVERT MCSET = $mcset1 VARPREFIX=set1 SETNAME=$fromset1.
+</code></pre>
+
+<p>This procedure converts a multiple category set into a multiple dichotomy set.
+It generates a dichotomous variable for each value found in the variables
+that define the MC set and assigns the value labels, if any, taken from the
+first variable in the set as the variable labels of the new variables.</p>
+
+<p>This may be useful in order to use the
+STATS CATEGORY ORDER extension command for working with CTABLES.</p>
+
+<p>Existing variables are overwritten, but if there is a type conflict,
+an error will be generated.</p>
+
+<p><strong>MCSET</strong> is a multiple category set to convert to a multiple dichotomy set.</p>
+
+<p><strong>VARPREFIX</strong> specifies text that will be prepended to the names of the generated
+names that form the output.  The generated names have the form
+<code>prefix_nn</code>
+where nn is a number. They may overwrite an existing variable.</p>
+
+<p><strong>SETNAME</strong> is the name for the output multiple dichotomy set.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+

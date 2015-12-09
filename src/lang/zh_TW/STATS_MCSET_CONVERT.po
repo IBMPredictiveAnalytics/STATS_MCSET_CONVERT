@@ -1,0 +1,79 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: STATS_MCSET_CONVERT.py:81
+msgid "Only an MC set can be used with this procedure"
+msgstr ""
+"只有 MC 集可以與此程序搭配使用"
+
+#: STATS_MCSET_CONVERT.py:90
+msgid "Convert MC Set"
+msgstr ""
+"轉換 MC 集"
+
+#: STATS_MCSET_CONVERT.py:92
+msgid "Variables Generated for Set %s"
+msgstr ""
+"針對集 %s 產生的變數"
+
+#: STATS_MCSET_CONVERT.py:94
+msgid "Variable Name"
+msgstr ""
+"變數名稱"
+
+#: STATS_MCSET_CONVERT.py:96
+msgid "Label"
+msgstr ""
+"標籤"
+
+#: STATS_MCSET_CONVERT.py:96
+msgid "Value Represented"
+msgstr ""
+"代表的值"
+
+#: STATS_MCSET_CONVERT.py:111
+msgid "The specified set is not a multiple category set.  Only a set of that type can be used in this procedure: %s"
+msgstr ""
+"指定的集不是多重種類集。只有該類型的集才可以在此程序中使用：%s"
+
+#: STATS_MCSET_CONVERT.py:265
+msgid "MR set not found: %s"
+msgstr ""
+"找不到 MR 集：%s"
+
+#: STATS_MCSET_CONVERT.py:308
+msgid "---"
+msgstr ""
+"---"
+
+
+
