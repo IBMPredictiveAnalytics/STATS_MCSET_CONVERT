@@ -1,10 +1,12 @@
 # STATS_MCSET_CONVERT
 ##Convert a multiple category set to a multiple dichotomy set
- 
+
+This procedure converts a multiple category set into a multiple dichotomy set representing the same information.  This can be useful in conjunction with the STATS CATEGORY ORDER extension command or in order to tabulate individual values or to create dummy variables for use in procedures such as regression.
+
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for Python.
 
 ---
 Installation intructions
