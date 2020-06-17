@@ -2,7 +2,7 @@ Name: STATS MCSET CONVERT
 Dialog-Specs: STATS_MCSET_CONVERT.spd
 Command-Specs: STATS_MCSET_CONVERT.xml
 Code-Files: STATS_MCSET_CONVERT.py
-Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Misc-Files: extsyntax.css,IBMdialogicon.png,markdown.html
 Summary: Convert a multiple category set to a multiple dichotomy set
 Description: This procedure converts a multiple category set into a mu
  ltiple dichotomy set representing the same information.  This can be 
@@ -10,8 +10,10 @@ Description: This procedure converts a multiple category set into a mu
   or in order to tabulate individual values or to create dummy variabl
  es for use in procedures such as regression.
 Author: JKP, IBM SPSS
-Version: 1.0.4
-Product-Version: 18
+Version: 2.0.4
+Product-Version: 24
 Date: 7/30/2013
+Product-Version-Maximum: 99
 Plugins: Python
+Python-Version: 3
 Translation-Catalogues: lang
