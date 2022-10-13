@@ -1,4 +1,5 @@
 Name: STATS MCSET CONVERT
+Display-Name: Multiple Category Set to Multiple Dichotomy Set
 Dialog-Specs: STATS_MCSET_CONVERT.spd
 Command-Specs: STATS_MCSET_CONVERT.xml
 Code-Files: STATS_MCSET_CONVERT.py
